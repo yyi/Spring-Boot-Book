@@ -1,6 +1,7 @@
 package com.example.demo.Service.SysUser;
 
-import com.example.demo.entity.sysuser.SysUser;
+
+import com.example.demo.entity.sysuser.*;
 import com.example.demo.repository.SysUser.SysUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

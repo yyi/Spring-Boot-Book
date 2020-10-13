@@ -1,6 +1,6 @@
 package com.example.demo.Service.SysUser;
 
-import com.example.demo.entity.sysuser.SysUser;
+import com.example.demo.entity.sysuser.*;
 import org.springframework.data.domain.Page;
 
 /**

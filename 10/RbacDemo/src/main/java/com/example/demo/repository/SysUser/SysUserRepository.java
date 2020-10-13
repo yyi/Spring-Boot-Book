@@ -2,7 +2,7 @@ package com.example.demo.repository.SysUser;
 
 
 
-import com.example.demo.entity.sysuser.SysUser;
+import com.example.demo.entity.sysuser.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
