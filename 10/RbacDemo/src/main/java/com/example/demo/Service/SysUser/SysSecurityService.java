@@ -1,7 +1,7 @@
 package com.example.demo.Service.SysUser;
 
-import com.example.demo.entity.sysuser.SysUser;
-import com.example.demo.repository.SysUser.SysUserRepository;
+import com.example.demo.entity.SysUser;
+import com.example.demo.repository.SysUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.LockedException;
 import org.springframework.security.core.userdetails.UserDetails;

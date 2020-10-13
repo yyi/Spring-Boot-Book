@@ -1,10 +1,10 @@
 package com.example.demo.Service;
 
-import com.example.demo.entity.sysuser.SysPermission;
-import com.example.demo.entity.sysuser.SysRole;
-import com.example.demo.entity.sysuser.SysUser;
-import com.example.demo.repository.SysUser.SysPermissionRepository;
-import com.example.demo.repository.SysUser.SysUserRepository;
+import com.example.demo.entity.SysPermission;
+import com.example.demo.entity.SysRole;
+import com.example.demo.entity.SysUser;
+import com.example.demo.repository.SysPermissionRepository;
+import com.example.demo.repository.SysUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
