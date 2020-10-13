@@ -27,7 +27,7 @@ public class SysUserServiceImpl implements SysUserService {
 
     @Override
     public Page<SysUser> PageByAdminUser(Integer page, Integer size) {
-        Pageable pageable = new PageRequest(page,size, Sort.Direction.ASC, "id");
+        Pageable pageable = PageRequest.of(page,size, Sort.Direction.ASC, "id");
         return sysUserRepository.findAll(pageable);
     }
 
